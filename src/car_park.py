@@ -1,5 +1,5 @@
 class CarPark:
-    def __init__(self, name, location, capacity, number_plates, displays):
+    def __init__(self, name, location, capacity, number_plates = None, displays = None):
         self.name = name
         self.location = location
         self.capacity = capacity
